@@ -1,6 +1,6 @@
 package interfaceNew;
 import java.util.Scanner;
-public class InterfaceMainClass {
+public class InterfaceArithmeticOperations {
 	public static void main(String args[])
 	{
 		int a,b;
@@ -8,7 +8,7 @@ public class InterfaceMainClass {
 		System.out.println("Enter two numbers");
 		a=sc.nextInt();
 		b=sc.nextInt();
-		InterfaceNextclass obj=new InterfaceNextclass();
+		InterfaceArithmeticOperations obj=new InterfaceArithmeticOperations();
 		obj.add(a,b);
 		obj.sub(a,b);
 		obj.mult(a,b);
