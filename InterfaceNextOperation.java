@@ -1,6 +1,6 @@
 package interfaceNew;
 
-public class InterfaceNextclass implements InterfaceExp1,InterfaceExp2{
+public class InterfaceNextOperation implements InterfaceExample1,InterfaceExp2{
 	
 public void add(int a,int b)
 {
