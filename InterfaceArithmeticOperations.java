@@ -8,7 +8,7 @@ public class InterfaceArithmeticOperations {
 		System.out.println("Enter two numbers");
 		a=sc.nextInt();
 		b=sc.nextInt();
-		InterfaceNextOperations obj=new InterfaceNextOperations();
+		InterfaceNextOperations obj=new InterfaceNextOperations();//invoke interface
 		obj.add(a,b);
 		obj.sub(a,b);
 		obj.mult(a,b);
